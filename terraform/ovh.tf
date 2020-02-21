@@ -21,7 +21,6 @@ variable "ovh_regions" {
   default     = [
     "DE1",
     "GRA7",
-    "SBG5",
   ]
 }
 
