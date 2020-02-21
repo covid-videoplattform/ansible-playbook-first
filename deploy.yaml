@@ -1,0 +1,18 @@
+---
+
+- hosts: ovh_vms
+  remote_user: root
+  gather_facts: false
+  roles:
+    - role: terraform-vm
+
+- hosts: localhost
+  tasks:
+    - debug:
+        msg: |-
+          to apply terraform updates run:
+            cd "{{playbook_dir}}/terraform"
+            terraform apply
+
+    # - terraform:
+    #     project_path: "{{playbook_dir}}/terraform"
