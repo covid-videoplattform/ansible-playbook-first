@@ -1,0 +1,18 @@
+[submodule "roles/coturn"]
+	path = roles/coturn
+	url = ../ansible-role-coturn.git
+[submodule "roles/jicofo"]
+	path = roles/jicofo
+	url = ../ansible-role-jicofo.git
+[submodule "roles/jitsi-meet"]
+	path = roles/jitsi-meet
+	url = ../ansible-role-jitsi-meet.git
+[submodule "roles/jitsi-meet-web"]
+	path = roles/jitsi-meet-web
+	url = ../ansible-role-jitsi-meet-web.git
+[submodule "roles/jitsi-prosody"]
+	path = roles/jitsi-prosody
+	url = ../ansible-role-jitsi-prosody.git
+[submodule "roles/jitsi-videobridge"]
+	path = roles/jitsi-videobridge
+	url = ../ansible-role-jitsi-videobridge.git
