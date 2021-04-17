@@ -1,0 +1,6 @@
+---
+
+- hosts: jitsi
+  remote_user: root
+  roles:
+    - role: jitsi-meet

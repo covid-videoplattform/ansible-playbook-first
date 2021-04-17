@@ -1,9 +1,0 @@
-[ovh_vms]
-controller.testing.thengo.net openstack_region=DE1
-#ns.testing.thengo.net openstack_region=DE1
-
-[controllers]
-controller.testing.thengo.net
-
-[nameservers]
-ns.testing.thengo.net

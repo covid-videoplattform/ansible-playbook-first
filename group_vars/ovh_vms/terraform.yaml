@@ -1,3 +1,0 @@
-ansible_host: "{{terraform_vm.access_ip_v4}}"
-openstack_region: GRA7
-openstack_flavor: s1-2
